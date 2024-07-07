@@ -1,210 +1,27 @@
-Contribution: 2021-08-19 20:00
+# React + TypeScript + Vite
 
-Contribution: 2021-08-19 20:01
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Contribution: 2021-08-19 20:02
+Currently, two official plugins are available:
 
-Contribution: 2021-08-19 20:03
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Contribution: 2021-08-19 20:04
+## Expanding the ESLint configuration
 
-Contribution: 2021-08-20 20:00
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-Contribution: 2021-08-20 20:01
+- Configure the top-level `parserOptions` property like this:
 
-Contribution: 2021-08-24 20:00
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
 
-Contribution: 2021-08-24 20:01
-
-Contribution: 2021-08-24 20:02
-
-Contribution: 2021-08-24 20:03
-
-Contribution: 2021-08-24 20:04
-
-Contribution: 2021-08-24 20:05
-
-Contribution: 2021-08-24 20:06
-
-Contribution: 2021-08-25 20:00
-
-Contribution: 2021-08-25 20:01
-
-Contribution: 2021-08-25 20:02
-
-Contribution: 2021-08-25 20:03
-
-Contribution: 2021-08-25 20:04
-
-Contribution: 2021-08-26 20:00
-
-Contribution: 2021-08-26 20:01
-
-Contribution: 2021-08-26 20:02
-
-Contribution: 2021-08-26 20:03
-
-Contribution: 2021-08-26 20:04
-
-Contribution: 2021-08-26 20:05
-
-Contribution: 2021-08-26 20:06
-
-Contribution: 2021-08-26 20:07
-
-Contribution: 2021-08-26 20:08
-
-Contribution: 2021-08-26 20:09
-
-Contribution: 2021-08-26 20:10
-
-Contribution: 2021-08-31 20:00
-
-Contribution: 2021-08-31 20:01
-
-Contribution: 2021-08-31 20:02
-
-Contribution: 2021-08-31 20:03
-
-Contribution: 2021-08-31 20:04
-
-Contribution: 2021-08-31 20:05
-
-Contribution: 2021-09-01 20:00
-
-Contribution: 2021-09-01 20:01
-
-Contribution: 2021-09-01 20:02
-
-Contribution: 2021-09-01 20:03
-
-Contribution: 2021-09-01 20:04
-
-Contribution: 2021-09-01 20:05
-
-Contribution: 2021-09-01 20:06
-
-Contribution: 2021-09-01 20:07
-
-Contribution: 2021-09-01 20:08
-
-Contribution: 2021-09-01 20:09
-
-Contribution: 2021-09-02 20:00
-
-Contribution: 2021-09-02 20:01
-
-Contribution: 2021-09-02 20:02
-
-Contribution: 2021-09-02 20:03
-
-Contribution: 2021-09-02 20:04
-
-Contribution: 2021-09-02 20:05
-
-Contribution: 2021-09-06 20:00
-
-Contribution: 2021-09-07 20:00
-
-Contribution: 2021-09-07 20:01
-
-Contribution: 2021-09-07 20:02
-
-Contribution: 2021-09-07 20:03
-
-Contribution: 2021-09-07 20:04
-
-Contribution: 2021-09-07 20:05
-
-Contribution: 2021-09-07 20:06
-
-Contribution: 2021-09-07 20:07
-
-Contribution: 2021-09-07 20:08
-
-Contribution: 2021-09-07 20:09
-
-Contribution: 2021-09-08 20:00
-
-Contribution: 2021-09-08 20:01
-
-Contribution: 2021-09-08 20:02
-
-Contribution: 2021-09-08 20:03
-
-Contribution: 2021-09-08 20:04
-
-Contribution: 2021-09-08 20:05
-
-Contribution: 2021-09-08 20:06
-
-Contribution: 2021-09-08 20:07
-
-Contribution: 2021-09-08 20:08
-
-Contribution: 2021-09-08 20:09
-
-Contribution: 2021-09-08 20:10
-
-Contribution: 2021-09-08 20:11
-
-Contribution: 2021-09-09 20:00
-
-Contribution: 2021-09-09 20:01
-
-Contribution: 2021-09-09 20:02
-
-Contribution: 2021-09-09 20:03
-
-Contribution: 2021-09-09 20:04
-
-Contribution: 2021-09-09 20:05
-
-Contribution: 2021-09-09 20:06
-
-Contribution: 2021-09-09 20:07
-
-Contribution: 2021-09-09 20:08
-
-Contribution: 2021-09-10 20:00
-
-Contribution: 2021-09-13 20:00
-
-Contribution: 2021-09-13 20:01
-
-Contribution: 2021-09-13 20:02
-
-Contribution: 2021-09-13 20:03
-
-Contribution: 2021-09-13 20:04
-
-Contribution: 2021-09-13 20:05
-
-Contribution: 2021-09-13 20:06
-
-Contribution: 2021-09-13 20:07
-
-Contribution: 2021-09-13 20:08
-
-Contribution: 2021-09-16 20:00
-
-Contribution: 2021-09-16 20:01
-
-Contribution: 2021-09-16 20:02
-
-Contribution: 2021-09-16 20:03
-
-Contribution: 2021-09-16 20:04
-
-Contribution: 2021-09-16 20:05
-
-Contribution: 2021-09-16 20:06
-
-Contribution: 2021-09-16 20:07
-
-Contribution: 2021-09-17 20:00
-
-Contribution: 2021-09-17 20:01
-
-Contribution: 2021-09-17 20:02
-
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
